@@ -1,0 +1,26 @@
+{
+  "name": "faqsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.9",
+    "cssnano": "^5.1.7",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.13",
+    "terser": "^5.13.1"
+  }
+}
