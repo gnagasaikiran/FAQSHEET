@@ -123,6 +123,11 @@ html {
     padding: 6px;
     &.publish {
       margin: 0;
+      &:hover {
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #E46125;
+      }
     }
     }
 
@@ -150,6 +155,10 @@ html {
         text-align: center;
         padding: 7px 0;
         // letter-spacing: 0.015em;
+        &:hover {
+          background-color: #e46125;
+          color: #ffffff;
+        }
       }
     }
 
@@ -261,7 +270,20 @@ html {
     border-radius: 49.5px;
     padding: 7px 14px 14px 14px;
     float: right;
+    font-weight: 700;
     margin-right: 20px;
+    &:hover {
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+      // font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 20px;
+// line-height: 24px;
+// text-align: center;
+// letter-spacing: 0.015em;
+    }
   }
 
   .btn-grp {
